@@ -51,3 +51,9 @@ Por fim, aprendi sobre a a propriedade textContet, que tem como conteúdo o text
 Já com a variável "titulo" criada, podemos modificar o título exibido na página com a seguinte escrita: 
 
 `$ titulo.textContent = "Aparecida Nutricionista"`
+
+## Aula 2 - Operadores lógicos
+
+Ao assistir a segunda aula, além de exercitar bastante os conhecimentos adquiridos no que tange a acessar os dados de um documento HTML a partir das variável document, do querySelector e da propriedade textContent, utilizamos operadores lógicos para calcular o IMC do primeiro paciente presente na tabela. Por fim, foi criada uma lógica utilizando if/else a fim de impossibilitar o cálculo do IMC nos casos em que as variáveis de peso e/ou altura estejam com valores incoerentes com a realidade. 
+
+No HTML a única modificação feita foi a adição da id "primeiroPaciente" na primeira tr do body da tabela de pacientes, tendo sido o documento principal.js o que mais sofreu modificações. Nele foram criadas diversas variáveis e, a partir delas, foi desenvolvida uma lógica de cálculo do IMC. Esse documento pode ser encontrado na pasta "aula2_variaveisOperadoresLogicos" e está todo comentado! o/
